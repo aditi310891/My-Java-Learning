@@ -1,0 +1,21 @@
+import java.util.*;
+public class Autoboxingexample1 {
+	
+	public static void main( String[] args){
+		
+		char ch ='x';
+		// Autoboxing- char primitive datatype to Character object conversion
+		Character a = ch;//unboxing e vice versa hobe
+		//create Arraylist
+		ArrayList<Integer> AditisarrayList = new ArrayList<Integer>();
+		
+		// Autoboxing because ArrayList stores only objects
+		AditisarrayList.add(25);
+		
+		// printing the values from object
+        System.out.println(AditisarrayList.get(0));
+        //print a prints what is stored in object called a. a me primitive type x hai
+        System.out.println(a);
+	}
+
+}
